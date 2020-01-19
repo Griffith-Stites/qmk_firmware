@@ -17,17 +17,15 @@
 
 ## Layout Notes
 ### Pebble (dz60rgb_wkl)
-* Holding caps lock is control
-* Holding tab goes to layer 2 with sectodary functions
-* Can reach the settings layer by clicking space on layer 2
+* Holding caps lock is ctl
+* Holding tab is layer 2
+
+* Can get to layer 3 settings layer with the right super key
+  * RGB Control and keyboard configuration
   * Esc is RESET
   * 1 is QWERTY
   * 2 is Dvorak
-  * Backspace swaps backspace and slash
-  * Enter exits
-* Need to add audio, arrow keys, and quantum keycode
-
-
-## Notes
-* BS_SWAP swaps \ and backspace
-* LT(layer, kc) Turn on layer when held, kc when tapped
+  * 3 swaps backspace and slash
+  * 4 unswaps
+  * Enter exit
+  * Space prints version
