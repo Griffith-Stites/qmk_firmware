@@ -22,15 +22,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______, _______,
         _______, KC_VOLU, KC_MNXT, KC_MPLY, _______, _______, KC_HOME, KC_PGUP, KC_UP,   KC_PGDN, _______, _______, _______, _______,
         KC_TRNS, KC_VOLD, KC_MPRV, KC_MUTE, _______, _______, KC_INS, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______,          _______,
-        _______,          _______, _______, _______, _______, _______, NK_TOGG, _______, _______, _______, _______, _______, KC_TRNS,
+        _______,          _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_TRNS,
         _______, _______, _______,                            _______,                                     _______, _______, _______
     ),
     // Settings Layer - RGB Control and keyboard configuration - setting main layer and backspace and \ swap, also should have swap
     [3] = LAYOUT_60_tsangan_hhkb(
         RESET,   DF(0),   DF(1),   BS_SWAP, BS_NORM, _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______,
-        _______, RGB_TOG, _______, RGB_HUI, RGB_HUD, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD, RGB_MOD, _______, _______, _______, _______,
-        _______, _______, _______, _______, _______, _______, _______, _______, RGB_SPI, RGB_SPD, _______, _______,          _______,
-        _______,          RGB_M_P, RGB_M_B, RGB_M_SN,RGB_M_K, RGB_M_G, _______, _______, _______, _______, _______, _______, _______,
-        _______, _______, _______,                            KC_1,                                        _______, KC_TRNS, _______
+        _______, RGB_HUI, RGB_SAI, RGB_TOG, RGB_VAI, RGB_SPI, RGB_MOD, _______, _______, _______, _______, _______, _______, _______,
+        _______, RGB_HUD, RGB_SAD, _______, RGB_VAD, RGB_SPD, RGB_RMOD, _______, _______, _______, _______, _______,          _______,
+        _______,          _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+        _______, _______, _______,                            KC_2,                                        _______, KC_TRNS, _______
     )
 };
