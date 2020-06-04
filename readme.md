@@ -1,14 +1,15 @@
-## Maeve's Qmk Firmware Repo
+# Maeve's Qmk Firmware Repo
 
 ## My Boards
 * DZ60
 * Pebble: qmk_firmware/keyboards/dztech/dz60rgb_wkl/v2
 
-## Make Hex File
-1. Navigate to qmk_firmware directory
-2. make dztech/dz60rgb_wkl/v2:maeve
+### QMK commands
+* [Setup](https://docs.qmk.fm/#/newbs_getting_started)
+* Build: qmk compile -kb <keyboard> -km <keymap>
+* Flash: qmk flash -kb <my_keyboard> -km <my_keymap> OR:
 
-## Flash
+### Flash (Longer form)
 1. Enter bootloader (esc and plug in on pebble)
 2. Check that keyboard chip shows up with sudo dmesg
 3. Clear memory: sudo dfu-programmer atmega32u4 erase --force
