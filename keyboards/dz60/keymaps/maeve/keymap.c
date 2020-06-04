@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	// Secondary function Layer: Function keys, arrows, media controls
 	LAYOUT(
 		KC_GRV, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, _______, _______,
-		_______, KC_VOLU, KC_MNXT, KC_MPLY, _______, _______, KC_HOME, KC_PGUP, KC_UP, KC_PGDN, _______, _______, _______, _______,
+		_______, KC_VOLU, KC_MNXT, KC_MPLY, _______, KC_NUMLOCK, KC_HOME, KC_PGUP, KC_UP, KC_PGDN, _______, _______, _______, _______,
 		KC_TRNS, KC_VOLD, KC_MPRV, KC_MUTE, _______, _______, KC_INS, KC_LEFT, KC_DOWN, KC_RIGHT, _______, _______, _______,
 		_______,  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_TRNS,
 		_______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______),
