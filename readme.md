@@ -51,5 +51,6 @@ Other Rules:
   * 2 is Dvorak
   * 3 swaps backspace and slash
   * 4 unswaps
+  * 5 is numpad
   * Enter exit
   * Space prints version
