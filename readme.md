@@ -1,6 +1,7 @@
 # Maeve's Qmk Firmware Repo
 
 ### QMK commands
+* Make sure items are in qmk folder with build items
 * [Setup](https://docs.qmk.fm/#/newbs_getting_started)
 * Build: qmk compile -kb <keyboard> -km <keymap>
 * Flash: qmk flash -kb <my_keyboard> -km <my_keymap> OR:
