@@ -35,7 +35,7 @@ Layers:
   * YH: Mode
 
 Other Rules:
-* Capslock is ctrl/capslock
+* Capslock is ctrl/c    apslock
 * Tab is Layer 3/tab, split shift function should  also access layer 3
 * Layer 4 is accessed on a bottom right fn key
 
@@ -47,8 +47,8 @@ Other Rules:
 * Can get to layer 3 settings layer with the right super key
   * RGB Control and keyboard configuration
   * Esc is RESET
-  * 1 is QWERTY
-  * 2 is Dvorak
+  * 1 is Dvorak
+  * 2 is QWERTY
   * 3 swaps backspace and slash
   * 4 unswaps
   * 5 is numpad
