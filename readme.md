@@ -35,7 +35,7 @@ Layers:
   * YH: Mode
 
 Other Rules:
-* Capslock is ctl/Capslock
+* Capslock is ctrl/capslock
 * Tab is Layer 3/tab, split shift function should  also access layer 3
 * Layer 4 is accessed on a bottom right fn key
 
