@@ -27,10 +27,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     // Settings Layer - RGB Control and keyboard configuration - setting main layer and backspace and \ swap, also should have swap
     [3] = LAYOUT_60_tsangan_hhkb(
-        RESET,   DF(0),   DF(1),   BS_SWAP, BS_NORM, _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______,
+        RESET,   DF(0),   DF(1),   BS_SWAP, BS_NORM, TO(4), _______, _______, _______, _______, _______, _______, _______, _______,  _______,
         _______, RGB_HUI, RGB_SAI, RGB_TOG, RGB_VAI, RGB_SPI, RGB_MOD, _______, _______, _______, _______, _______, _______, _______,
         _______, RGB_HUD, RGB_SAD, _______, RGB_VAD, RGB_SPD, RGB_RMOD, _______, _______, _______, _______, _______,          _______,
         _______,          _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
         _______, _______, _______,                            KC_2,                                        _______, KC_TRNS, _______
+    ),
+    // numpad layer
+    [4] = LAYOUT_60_tsangan_hhkb(
+        KC_GESC,        TO(0),    TO(1),    KC_3,    KC_4,    KC_5,    KC_6,    KC_NUMLOCK, KC_PSLS, KC_PAST, KC_BSPC,    KC_LBRC, KC_RBRC, KC_BSLS, KC_DEL,
+        LT(2, KC_TAB),  KC_QUOT, KC_COMM, KC_DOT,  KC_P,    KC_Y,    KC_F,    KC_KP_7, KC_KP_8, KC_KP_9, KC_KP_MINUS,    KC_SLSH, KC_EQL,  KC_BSPC,
+        CTL_T(KC_CAPS), KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_D,    KC_KP_4, KC_KP_5, KC_KP_6, KC_KP_PLUS,    KC_MINS,          KC_ENT,
+        KC_LSFT,                 KC_SCLN, KC_Q,    KC_J,    KC_K, KC_X, KC_B, KC_KP_1, KC_KP_2, KC_KP_3, KC_KP_ENTER,     KC_RSFT, MO(2),
+        KC_LCTL,        KC_LGUI, KC_LALT,                            KC_KP_0,                                      KC_KP_DOT, MO(3),   KC_RCTL
     )
 };
